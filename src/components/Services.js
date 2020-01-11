@@ -34,7 +34,7 @@ state = {
             <section className="section">
               <Title title="Services" />
               <div className="services-center">
-                  
+                  {this.state.services.map({})}
               </div>
             </section>
         );
