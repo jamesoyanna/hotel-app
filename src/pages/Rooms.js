@@ -1,10 +1,9 @@
 import React from 'react';
+import Hero from '../components/Hero';
 
 const Rooms = () => {
     return (
-        <div>
-           Hello from rooms pag e 
-        </div>
+        <Hero hero="roomsHero" />
     );
 }
 
