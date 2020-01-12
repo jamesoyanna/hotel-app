@@ -9,11 +9,13 @@ state = {
          title: "Free Cocktail",
          info: "Loremum ipsum text ready for the new cocktail"
      },
+
      {
          icon: <FaHiking />,
          title: "Endless Hiking",
          info: "Loeum ipsum test.going on a hiking mood now"
      },
+
      {
          icon: <FaShuttleVan />,
          title: "Free shuttle",
@@ -27,6 +29,7 @@ state = {
          info:
          "Loreump ipsum detty december. Get the best drink"
      }
+     
     ]
 }
     render() {
