@@ -9,7 +9,7 @@ export class FeaturedRooms extends Component {
             console.log(value);
         return (
             <div>
-               Hello  from  featured rooms {value}
+               Hello  from  featured rooms
             </div>
         );
     }
