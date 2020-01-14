@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import { RoomContext } from '../context';
+import Title from './Title';
 
 export class FeaturedRooms extends Component {
     static contextType = RoomContext;
 
     render() {
-            const value = this.context;
-            console.log(value);
+    const {loading, featuredRooms: rooms} = this.context;
+    console.log(rooms);
         return (
             <div>
-               Hello  from  featured rooms
+               from  featured rooms
             </div>
         );
     }
