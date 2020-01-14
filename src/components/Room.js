@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Rooms = () => {
+const Room = () => {
     return (
         <div>
             Hello from room
@@ -8,4 +8,4 @@ const Rooms = () => {
     );
 }
 
-export default Rooms;
+export default Room;
