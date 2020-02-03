@@ -1,9 +1,12 @@
 import styled from 'styled-components';
-const orange = '#f15025'
-const simpleButton = styled.button`
-color:${orange};
-background: green;
-font-size:3rem;
-`
+import defaultImg from "../images/room-1.jpeg"
 
-export default simpleButton;
+const StyledHero = styled.header`
+min-height: 60hv;
+background: url(${defaultImg}) center/cover no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+`;
+
+export default StyledHero;
