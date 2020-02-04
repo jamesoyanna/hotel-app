@@ -47,6 +47,12 @@ const [mainImg, ...defaultImg] = images
                       return <img key={index} src={item} alt={name}/>
                   })}
               </div>
+              <div className="single-room-info">
+                  <article className="desc">
+                      <h3>Details</h3>
+                      <p>{description}</p>
+                  </article>
+              </div>
           </section>
           </>
         );
