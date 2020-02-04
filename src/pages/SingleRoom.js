@@ -60,8 +60,17 @@ const [mainImg, ...defaultImg] = images
                       Max Capacity: {" "} {capacity>1 ? `${capacity} people` : `${capacity} person`}
                   </h6>
                   <h6>{pets ? "pets allowed": "No pets allowed"}</h6>
+                  <h6>{breakfast && "free breakfast included"}</h6>
                 </article>
               </div>
+            </section>
+            <section className="room-extras">
+                <h6>Extras</h6>
+                <ul className="extras">
+                    {extras.map((index,item)=>{
+                       return <li key={index}>-{extras}</li>
+                    })}
+                </ul>
             </section>
           </>
         );
