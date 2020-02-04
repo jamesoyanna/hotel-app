@@ -59,6 +59,7 @@ const [mainImg, ...defaultImg] = images
                   <h6>
                       Max Capacity: {" "} {capacity>1 ? `${capacity} people` : `${capacity} person`}
                   </h6>
+                  <h6>{pets ? "pets allowed": "No pets allowed"}</h6>
                 </article>
               </div>
             </section>
