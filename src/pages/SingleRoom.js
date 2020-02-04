@@ -31,10 +31,10 @@ if(!room){
 }
 
 const {name, description, capacity,size, price, extras,breakfast,pets, images} = room
-
+const [mainImg, ...defaultImg] = images
         return (
             <>
-          <StyledHero img={images[0] || this.state.defaultBcg}>
+          <StyledHero img={mainImg || this.state.defaultBcg}>
             <Banner title={`${name}room`}>
               <Link to="/rooms" className="btn-primary">
                 Back to rooms
@@ -43,7 +43,7 @@ const {name, description, capacity,size, price, extras,breakfast,pets, images} =
           </StyledHero>
           <section className="single-room">
               <div className="single-room-images">
-                  {images.map((item, index)=>{
+                  {defaultImg.map((item, index)=>{
                       return <img key={index} src={item} alt={name}/>
                   })}
               </div>
