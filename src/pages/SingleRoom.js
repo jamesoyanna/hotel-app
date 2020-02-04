@@ -52,6 +52,10 @@ const [mainImg, ...defaultImg] = images
                       <h3>Details</h3>
                       <p>{description}</p>
                   </article>
+                  <article className="info">
+                      <h3>Info</h3>
+                      <h6>Price: ${price}</h6>
+                  </article>
               </div>
           </section>
           </>
