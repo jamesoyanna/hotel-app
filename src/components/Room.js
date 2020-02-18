@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import defaultImg from '../images/room-1.jpeg';
 import PropTypes from 'prop-types';
+//import RoomsContainer from './RoomsContainer';
 
 const Room = ({ room }) => {
    const {name, slug, images, price} = room;
@@ -21,6 +22,7 @@ const Room = ({ room }) => {
         </div>
         <p className="room-info">{name}</p>
       </article>
+  
     );
 }
 
