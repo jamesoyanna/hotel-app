@@ -53,6 +53,11 @@ people = people.map((item, index)=>{
             
               {people}
             </select>
+            <div className="form-group">
+                <label htmlFor="price">
+                    room price ${price}
+                </label>
+            </div>
           </div>
         </form>
       </section>
